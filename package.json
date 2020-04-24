@@ -1,13 +1,13 @@
 {
-  "name": "Elizium-MC",
+  "name": "elizium",
   "version": "1.7.0",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "productName": "Elizium-MC / PvP-Faction Modėes",
+  "description": "PvP-Faction Modėes",
+  "author": "PrincessAsuna (https://github.com/PrincessAsuna/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/Elizium-MC",
+  "homepage": "https://github.com/PrincessAsuna/Elizium-MC",
   "bugs": {
-    "url": "https://github.com/dscalzi/Elizium-MC/issues"
+    "url": "https://github.com/PrincessAsuna/Elizium-MC/issues"
   },
   "private": true,
   "main": "index.js",

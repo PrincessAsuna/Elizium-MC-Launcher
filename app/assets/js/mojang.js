@@ -41,12 +41,6 @@ const statuses = [
         essential: false
     },
     {
-        service: 'minecraft.net',
-        status: 'grey',
-        name: 'Minecraft.net',
-        essential: false
-    },
-    {
         service: 'account.mojang.com',
         status: 'grey',
         name: 'Mojang Accounts Website',
