@@ -10,7 +10,7 @@ function getCurrentPlatform(){
         case 'linux':
             return Platform.linux
         default:
-            console.error('Cannot resolve current platform!')
+            console.error('Impossible de résoudre la plateforme actuelle!')
             return undefined
     }
 }
@@ -18,8 +18,8 @@ function getCurrentPlatform(){
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'helioslauncher',
-        productName: 'Helios Launcher',
+        appId: 'Elizium-MC',
+        productName: 'Elizium Launcher',
         artifactName: '${productName}.${ext}',
         copyright: 'Copyright © 2018-2020 Daniel Scalzi',
         directories: {
@@ -62,7 +62,7 @@ builder.build({
         asar: true
     }
 }).then(() => {
-    console.log('Build complete!')
+    console.log('Construction terminée!')
 }).catch(err => {
-    console.error('Error during build!', err)
+    console.error('Erreur lors de la construction!', err)
 })
